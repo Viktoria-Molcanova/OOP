@@ -1,5 +1,3 @@
-
-
 public interface ActorBehavior {
     void setMakeOrder();
     void setTakeOrder();
