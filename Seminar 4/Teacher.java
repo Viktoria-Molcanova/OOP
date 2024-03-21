@@ -8,7 +8,6 @@ public class Teacher extends User{
     public Integer getTeacherId() {
         return teacherId;
     }
-
     @Override
     public String toString() {
         return "Учитель : " +"Id учителя " + teacherId +"Фамилия " + super.getSurname() + '\'' +"Имя '" + super.getFirstname() + '\'' +"Отчество '" + super.getmiddlename() + '\'' ;
