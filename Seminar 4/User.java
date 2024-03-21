@@ -35,11 +35,7 @@ public class User{
 
 	@Override
 	public String toString() {
-		return "User{" +
-				"surname='" + surname + '\'' +
-				", firstname='" + firstname + '\'' +
-				", middlename='" + middlename + '\'' +
-				'}';
+		return "Пользователь" + "Фамилия '" + surname + '\'' +"Имя '" + firstname + '\'' +"Отчество '" + middlename + '\'' +'}';
 	}
 
 }
